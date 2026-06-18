@@ -1,0 +1,16 @@
+{
+  "name": "requirement-validate",
+  "description": "需求理解确认闭环 - 复述需求让用户确认，确认后再实现",
+  "triggers": [
+    "需求确认",
+    "帮我理解需求",
+    "验证需求",
+    "requirement check",
+    "确认一下需求",
+    "先别写代码，先确认"
+  ],
+  "type": "process",
+  "priority": "high",
+  "version": "1.0.0",
+  "author": "HP-Patience"
+}
