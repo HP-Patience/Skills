@@ -26,7 +26,7 @@ My personal collection of AI agent skills — prompts, workflows, and tools I us
 Skills work with Claude Code or compatible AI coding agents. Clone and symlink or copy what you need.
 
 ```bash
-git clone https://github.com/HP-Patience/Celyn_Skills.git
+git clone https://github.com/HP-Patience/Skills.git
 ```
 
 Each skill under `skills/` contains its own `SKILL.md` (the skill definition), plus supporting files.
