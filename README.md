@@ -1,6 +1,6 @@
 # Skills
 
-My personal collection of AI agent skills — prompts, workflows, and tools I use and create for coding with AI assistants like Claude Code.
+My personal collection of AI agent skills I use and create for coding with AI assistants like Claude Code.
 
 ## Skills
 
@@ -13,12 +13,9 @@ My personal collection of AI agent skills — prompts, workflows, and tools I us
 
 ```
 ├── README.md
-├── skills/             # Skill definitions and prompts
-│   ├── vibe-learn/     # Vibe coding teaching skill
-│   └── requirement-validate/  # Requirement validation workflow
-├── workflows/          # Reusable workflow templates
-├── templates/          # Project templates and scaffolds
-└── scripts/            # Automation and utility scripts
+└── skills/             # Skill definitions
+    ├── vibe-learn/     # Vibe coding teaching skill
+    └── requirement-validate/  # Requirement validation workflow
 ```
 
 ## Usage
