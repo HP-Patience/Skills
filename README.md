@@ -1,4 +1,4 @@
-# Celyn Skills
+# Skills
 
 My personal collection of AI agent skills — prompts, workflows, and tools I use and create for coding with AI assistants like Claude Code.
 
