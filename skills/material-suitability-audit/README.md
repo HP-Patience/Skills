@@ -69,5 +69,6 @@
 |---|---|
 | `references/annotation-pitfalls.md` | 实现陷阱速查：LaTeX 转义、标注块放置、翻转判断、R 代码格式 |
 | `references/guided-thinking-template.md` | 引导思考场景设计：三职能 + 五原则 + 完整示例 |
+| `references/latex-python-pitfalls.md` | LaTeX + Python 转义陷阱大全：受影响命令表、三种安全方案、验证命令 |
 | `references/textbook-pedagogical-pitfalls.md` | 英文版实现陷阱（深层细节） |
 | `references/v1-v2-v3-iteration-example.md` | 第2章 v1→v2→v3 完整迭代案例 |
