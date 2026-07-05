@@ -10,9 +10,13 @@ description: >
 
 ## Load references when needed
 
-- 需要设计具体 AskUserQuestion、诊断前置知识、考试复习追问时，读取 `references/intake-and-diagnosis.md`。
-- 需要控制认知负荷、设计检索练习、迁移练习、自我解释、间隔复习时，读取 `references/learning-science-patterns.md`。
-- 需要生成具体学习文档模板时，读取 `references/document-templates.md`。
+| 场景 / 任务 | 加载文件 | 何时加载 |
+|------------|---------|---------|
+| 设计 AskUserQuestion、诊断前置知识、考试复习追问 | `references/intake-and-diagnosis.md` | 需要问诊断问题或考试复习时 |
+| 控制认知负荷、设计练习、复习安排 | `references/learning-science-patterns.md` | 生成学习内容主体时 |
+| 需要具体文档模板 | `references/document-templates.md` | 开始写文档正文前 |
+
+核心流程（概念解释 / 公式推导 / 题目讲解 / 教材重写 / 复习讲义）直接从 SKILL.md 正文取，不需要读 reference。
 
 ## Core teaching posture
 
@@ -89,8 +93,6 @@ description: >
 
 ### File append requires AskUserQuestion
 
-### File append requires AskUserQuestion
-
 在向已沉淀的文件追加内容前，必须用 AskUserQuestion 让用户选择追加方式：
 
 - 追加到现有文件
@@ -129,7 +131,7 @@ description: >
 
 ## Math formatting
 
-分两种场景。
+分两种场景。**先判断当前环境**：如果输出目标是将要保存的 `.md` 文件（用户说了"沉淀/保存/写文件"），走 Markdown 文件模式；否则走对话正文模式。
 
 ### 在对话正文中输出公式
 
@@ -184,7 +186,16 @@ A/B/C：
 
 ## When user says they did not understand
 
-先判断没懂来自哪里：前置知识缺失、类比不合适、符号太快、推导跳步、问题背景缺失、例子不贴近。然后换具体例子、生活类比、反例、图像/几何直觉、更小前置概念或“如果没有这个概念会怎样”的角度重讲。禁止只把原句换词重复。
+先判断没懂来自哪里：前置知识缺失、类比不合适、符号太快、推导跳步、问题背景缺失、例子不贴近。然后换具体例子、生活类比、反例、图像/几何直觉、更小前置概念或”如果没有这个概念会怎样”的角度重讲。禁止只把原句换词重复。
+
+## When user input is insufficient
+
+| 情况 | 处理方式 |
+|------|---------|
+| 用户只贴了图片/PDF，无文字说明 | 用 AskUserQuestion 确认主题和需求（”你发的是关于什么的？你想了解哪部分？”） |
+| 用户只给了概念名/术语，无上下文 | 先假设通用理解入口，但明确告知”按通用学习路径展开，如果你有特定教材/考试范围请告诉我” |
+| 用户说的太模糊（”讲讲机器学习”） | 不走深度推导，先出 30 秒版 + 知识地图 + 下一步模块选择（见 Broad topics 规则） |
+| 用户贴了公式/代码但不说卡在哪 | 先问卡点类型（符号/推导/含义/边界），再展开 |
 
 ## When not to use this skill
 
