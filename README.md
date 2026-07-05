@@ -1,37 +1,39 @@
 # Skills
 
-My personal collection of AI agent skills I use and create for coding and learning with AI assistants.
+我在 AI 编程助手（如 Claude Code）中自用的一系列 AI Agent 技能（Skills），用于编程与学习。
 
-## Skills
+## 技能列表
 
-| Skill | Description |
-|-------|-------------|
+| 技能 | 说明 |
+|------|------|
 | [vibe-learn](skills/vibe-learn/) | 为 Vibe Coding / 非科班开发者教授项目开发实践技能。只教"怎么用"和"怎么向AI描述需求"。 |
 | [requirement-validate](skills/requirement-validate/) | 需求理解确认闭环。复述需求让用户确认，确认后再实现。 |
 | [nsfc-figure-prompts](skills/nsfc-figure-prompts/) | 为NSFC基金申请书生成AI科研绘图提示词。涵盖架构图、技术路线图、机制示意图等学术插画的prompt生成，基于经过7轮迭代验证的8张图模板。 |
 | [material-suitability-audit](skills/material-suitability-audit/) | 学习材料多角度适合度审计。五维度评估 → 教学重构 → 用户确认修改。 |
+| [study-doc-writer](skills/study-doc-writer/) | 为理解型学习者创建或重写学习文档，强调因果链、推导、边界、练习和复习沉淀。 |
 
-## Structure
+## 目录结构
 
 ```
 ├── README.md
-└── skills/                      # Skill definitions
-    ├── vibe-learn/              # Vibe coding teaching skill
-    ├── requirement-validate/    # Requirement validation workflow
-    └── nsfc-figure-prompts/     # NSFC scientific figure prompt generator
-    └── material-suitability-audit/  # Material suitability audit
+└── skills/                      # 技能定义
+    ├── vibe-learn/              # Vibe coding 教学技能
+    ├── requirement-validate/    # 需求验证技能
+    ├── nsfc-figure-prompts/     # NSFC 科研绘图提示词生成技能
+    ├── material-suitability-audit/  # 学习材料适合度审计技能
+    └── study-doc-writer/        # 理解型学习文档写作技能
 ```
 
-## Usage
+## 使用方式
 
-Skills work with Claude Code or compatible AI coding agents. Clone and symlink or copy what you need.
+技能适用于 Claude Code 或兼容的 AI 编程助手。克隆仓库后按需使用。
 
 ```bash
 git clone https://github.com/HP-Patience/Skills.git
 ```
 
-Each skill under `skills/` contains its own `SKILL.md` (the skill definition), plus supporting files.
+每个技能目录下包含 `SKILL.md`（技能定义）及其他支持文件。
 
-## License
+## 许可
 
 MIT

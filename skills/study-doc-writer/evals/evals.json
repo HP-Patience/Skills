@@ -1,0 +1,60 @@
+{
+  "skill_name": "study-doc-writer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "帮我写一份学习文档，讲清楚“特征值和特征向量”，我总觉得它很抽象。",
+      "expected_output": "A comprehension-first concept document that explains why eigenvalues/eigenvectors exist, connects them to linear transformations, gives intuitive and formal explanations, includes a minimal example, boundaries, common misunderstandings, and self-check questions.",
+      "files": [],
+      "assertions": [
+        "Explains why the concept is needed before giving the formal definition.",
+        "Connects the concept to prior knowledge such as vectors and linear transformations.",
+        "Includes at least one intuitive example or analogy and then returns to formal meaning.",
+        "Includes applicability boundaries or common misunderstandings.",
+        "Includes self-check questions.",
+        "Includes a Markdown persistence recommendation with grade, reason, and suggested filename."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "写一份学习文档，完整推导最小二乘法的正规方程，不要只给结论。",
+      "expected_output": "A derivation-focused study document that states the objective of least squares, defines assumptions and notation, derives the normal equation step by step with reasons for each transformation, explains what the result means, and lists conditions or failure cases.",
+      "files": [],
+      "assertions": [
+        "States the optimization goal before presenting the normal equation.",
+        "Defines notation and assumptions used in the derivation.",
+        "Shows the derivation step by step with reasons for each step.",
+        "Explains what the normal equation means after deriving it.",
+        "Includes applicability conditions or failure cases.",
+        "Includes a Markdown persistence recommendation with grade, reason, and suggested filename."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "这道概率题我不会，帮我做成学习文档：盒子里5个红球3个白球，不放回抽2个，求至少一个红球的概率。",
+      "expected_output": "An exercise explanation document that first explains the thinking path and the underlying probability principle, identifies the breakthrough such as complement counting, then solves step by step, and includes variants or common traps.",
+      "files": [],
+      "assertions": [
+        "Explains what the problem is testing before solving it.",
+        "Explains the thinking path or breakthrough before calculation.",
+        "Identifies given conditions, target event, and hidden constraints such as without replacement.",
+        "Solves step by step after explaining the method choice.",
+        "Includes a variant, transfer note, or common trap.",
+        "Includes a Markdown persistence recommendation with grade, reason, and suggested filename."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "把这段教材式内容改写成理解型学习文档：导数定义为 f'(x)=lim h→0 [f(x+h)-f(x)]/h。导数表示函数在一点的变化率。",
+      "expected_output": "A rewritten learning document that begins from why instantaneous rate of change is needed, connects average rate of change to the derivative limit, explains each part of the formula, gives a simple example, and includes boundaries and self-check questions.",
+      "files": [],
+      "assertions": [
+        "Starts from why instantaneous rate of change is needed before stating the definition.",
+        "Connects average rate of change to the derivative limit.",
+        "Explains each part of the formula in plain language.",
+        "Includes a simple example or analogy.",
+        "Includes boundaries, common misunderstanding, or self-check questions."
+      ]
+    }
+  ]
+}
