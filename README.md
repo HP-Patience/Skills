@@ -11,6 +11,7 @@
 | [nsfc-figure-prompts](skills/nsfc-figure-prompts/) | 为NSFC基金申请书生成AI科研绘图提示词。涵盖架构图、技术路线图、机制示意图等学术插画的prompt生成，基于经过7轮迭代验证的8张图模板。 |
 | [material-suitability-audit](skills/material-suitability-audit/) | 学习材料多角度适合度审计。五维度评估 → 教学重构 → 用户确认修改。 |
 | [study-doc-writer](skills/study-doc-writer/) | 为理解型学习者创建或重写学习文档，强调因果链、推导、边界、练习和复习沉淀。 |
+| [skill-optimizer](skills/skill-optimizer/) | 分析和优化 Agent Skill 定义，通过 7 层诊断框架发现并修复问题。 |
 
 ## 目录结构
 
@@ -21,7 +22,8 @@
     ├── requirement-validate/    # 需求验证技能
     ├── nsfc-figure-prompts/     # NSFC 科研绘图提示词生成技能
     ├── material-suitability-audit/  # 学习材料适合度审计技能
-    └── study-doc-writer/        # 理解型学习文档写作技能
+    ├── study-doc-writer/        # 理解型学习文档写作技能
+    └── skill-optimizer/         # Skill 优化诊断技能
 ```
 
 ## 使用方式
