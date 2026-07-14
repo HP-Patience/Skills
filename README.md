@@ -12,6 +12,7 @@
 | [material-suitability-audit](skills/material-suitability-audit/) | 学习材料多角度适合度审计。五维度评估 → 教学重构 → 用户确认修改。 |
 | [study-doc-writer](skills/study-doc-writer/) | 为理解型学习者创建或重写学习文档，强调因果链、推导、边界、练习和复习沉淀。 |
 | [skill-optimizer](skills/skill-optimizer/) | 分析和优化 Agent Skill 定义，通过 7 层诊断框架发现并修复问题。 |
+| [systematic-planning](skills/systematic-planning/) | 系统规划技能。把学习、考试、项目、能力建设或 skill 设计目标拆成可执行、可复盘、可调整的计划。 |
 
 ## 目录结构
 
@@ -23,7 +24,8 @@
     ├── nsfc-figure-prompts/     # NSFC 科研绘图提示词生成技能
     ├── material-suitability-audit/  # 学习材料适合度审计技能
     ├── study-doc-writer/        # 理解型学习文档写作技能
-    └── skill-optimizer/         # Skill 优化诊断技能
+    ├── skill-optimizer/         # Skill 优化诊断技能
+    └── systematic-planning/     # 系统规划技能
 ```
 
 ## 使用方式
