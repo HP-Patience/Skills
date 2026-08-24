@@ -14,6 +14,11 @@
 | [skill-optimizer](skills/skill-optimizer/) | 分析和优化 Agent Skill 定义，通过 7 层诊断框架发现并修复问题。 |
 | [systematic-planning](skills/systematic-planning/) | 系统规划技能。把学习、考试、项目、能力建设或 skill 设计目标拆成可执行、可复盘、可调整的计划。 |
 | [image-understanding](skills/image-understanding/) | 使用本地 Qwen2-VL-2B-Instruct 视觉语言模型分析图片，支持中文描述和图片问答。 |
+| [teach](skills/teach/) | Alvar 方法的一对一自适应教学：探查理解边缘、规划依赖路径，并逐步教学。 |
+| [probe](skills/probe/) | 使用分级测验探查学习者的知识状态，生成理解地图。 |
+| [learn-profile](skills/learn-profile/) | 建立学习者档案，记录基础、目标、节奏和教学偏好。 |
+| [learn-visual](skills/learn-visual/) | 为单个教学概念生成并检查可视化图示。 |
+| [learn-verify](skills/learn-verify/) | 在教学前核查事实、定理、历史或工具/API 相关断言。 |
 
 ## 目录结构
 
@@ -27,7 +32,12 @@
     ├── study-doc-writer/        # 理解型学习文档写作技能
     ├── skill-optimizer/         # Skill 优化诊断技能
     ├── systematic-planning/     # 系统规划技能
-    └── image-understanding/     # 本地视觉语言模型图片理解技能
+    ├── image-understanding/     # 本地视觉语言模型图片理解技能
+    ├── teach/                   # Alvar 方法一对一教学
+    ├── probe/                   # Alvar 方法理解探查
+    ├── learn-profile/           # 学习者档案
+    ├── learn-visual/            # 教学概念可视化
+    └── learn-verify/            # 教学事实核查
 ```
 
 ## 使用方式
