@@ -46,6 +46,8 @@ Reason how to teach **this mind** **this goal**. Do not wing it.
 - Verify claims the plan will treat as fact (use `learn-verify` when the domain is empirical, historical, or you are unsure). Math still gets a pass for named theorems if you would otherwise invent them.
 - Show the plan as a mermaid graph **before** teaching. Two jobs: the learner sees what is coming; the graph forces you to finish the reasoning.
 - Write the plan into `alvar/sessions/<date>-<topic>.md`.
+- Create or open one readable teaching正文 file at `alvar/teachings/<topic>.md`. Append every teaching node for this topic to that same file; do not create one file per node.
+- In teaching正文, use `$...$` for inline formulas and `$$...$$` for display formulas so Obsidian's native MathJax renders them reliably.
 - Record the primary mode, optional secondary mode, and completion criteria in
   the session file.
 - Ask if they want the graph changed. Then freeze it until a quiz failure forces a new node.
@@ -61,6 +63,7 @@ Walk the DAG. One node per turn.
 - Accept questions mid-step. Do not "finish the lesson" over them.
 - Give them things they can accept at face value only after the step they rest on is locked.
 - Persist what happened in the session file.
+- Persist the learner-facing explanation in the topic's single teaching正文 file under `alvar/teachings/`.
 
 ### Memory activities
 

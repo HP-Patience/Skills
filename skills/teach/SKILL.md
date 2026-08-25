@@ -25,6 +25,8 @@ Read, in order, before the first question:
 4. [references/quiz-ui.md](references/quiz-ui.md) — **required.** Quizzes use the harness question tool. Never A/B/C/D in chat.
 5. `alvar/LEARNER.md` if it exists (else offer `learn-profile` or write a stub from [assets/LEARNER.md](assets/LEARNER.md) after 3–5 questions)
 
+Teaching正文文件：每个主题创建一个独立的 `alvar/teachings/<topic>.md`，并把该主题的所有教学节点按顺序追加到这一个文件中；不要为每个节点创建单独文件。教学正文中的行内公式使用 `$...$`，独立公式使用 `$$...$$`，以兼容 Obsidian 原生 MathJax。
+
 If `probe`, `learn-visual`, or `learn-verify` are installed, use them for those jobs. If not, follow the same protocols inline.
 
 ## Hard rules
@@ -41,6 +43,7 @@ If `probe`, `learn-visual`, or `learn-verify` are installed, use them for those 
   feedback. Never infer emotion from tone alone.
 - Show the mermaid plan **before** teaching. Do not skip the graph.
 - Never dump the whole explanation in one message.
+- After teaching each node, append the readable teaching正文 to the topic's single `alvar/teachings/<topic>.md`; keep planning, quiz state, and resumable progress in the session file.
 - Do not invent citations. Verify or mark uncertainty.
 - Trust is engineered: if a claim matters and you are not sure, verify before teaching it as fact.
 

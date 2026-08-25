@@ -7,6 +7,7 @@ alvar/
   LEARNER.md                 # how this mind wants to be taught
   maps/<slug>.md             # probe results for one goal
   sessions/<date>-<slug>.md  # plan + steps + quizzes
+  teachings/<topic>.md       # one readable teaching正文 file per topic; append all nodes here
   visuals/<slug>-<n>.svg     # diagrams from learn-visual
 ```
 
@@ -90,3 +91,7 @@ graph TD
 ```
 
 Keep these files updated as you go. They are the persistence layer (the portable stand-in for a markdown-log / Obsidian pane).
+
+## Teaching正文文件
+
+Create one `alvar/teachings/<topic>.md` for each teaching topic. Append all nodes for that topic to this single file in teaching order. Do not split nodes into separate files. Use `$...$` for inline formulas and `$$...$$` for display formulas; these are the stable Obsidian MathJax forms.
