@@ -19,6 +19,7 @@
 | [learn-profile](skills/learn-profile/) | 建立学习者档案，记录基础、目标、节奏和教学偏好。 |
 | [learn-visual](skills/learn-visual/) | 为单个教学概念生成并检查可视化图示。 |
 | [learn-verify](skills/learn-verify/) | 在教学前核查事实、定理、历史或工具/API 相关断言。 |
+| [beautify-github-readme](skills/beautify-github-readme/) | 重构 GitHub README 的内容层级与项目原生视觉系统，或独立创建 SVG、PNG/WebP 和可选 GIF 资产。 |
 
 ## 目录结构
 
@@ -37,7 +38,8 @@
     ├── probe/                   # Alvar 方法理解探查
     ├── learn-profile/           # 学习者档案
     ├── learn-visual/            # 教学概念可视化
-    └── learn-verify/            # 教学事实核查
+    ├── learn-verify/            # 教学事实核查
+    └── beautify-github-readme/  # GitHub README 内容与视觉设计
 ```
 
 ## 使用方式
