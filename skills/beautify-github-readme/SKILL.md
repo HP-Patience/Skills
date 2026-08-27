@@ -100,24 +100,49 @@ Use the smallest change inside README mode that can produce a meaningful improve
 6. How to use: install + first command.
 7. Limits, compatibility, license, or contribution details when relevant.
 
-In every README mode result, place an accessible Markdown summary immediately
-after the hero and before the status badges. The summary must contain:
+### Above-the-fold README contract
 
-1. One bold sentence stating the project's audience and primary value.
-2. One short supporting sentence explaining the main workflow or capability.
+In every README mode result, use this exact first-screen order:
 
-Keep this summary outside the SVG so the project remains understandable when
-images fail. Do not omit it merely because the hero already contains similar
-copy.
+1. Hero asset.
+2. One centered Markdown summary block.
+3. One centered Shields.io status badge row.
+4. The next proof or explanation section.
 
-Also include a concise status badge row immediately below this summary. Use
-`https://shields.io/` badge URLs and link each badge to its relevant repository
-page or metadata. Inspect the repository and include only reliable, verifiable
-badges, such as stars, forks, contributors, open issues, last commit, primary
-runtime or package version, CI, release, license, or coverage. Prefer the
-project's real public metadata; when a dynamic metric is unavailable, use a
-static Shields.io badge derived from repository metadata rather than inventing
-data. Keep the row restrained, but always include it in README mode.
+Render the summary as one centered HTML block, keeping both sentences together:
+
+```html
+<p align="center">
+  <strong>One concise sentence stating the audience and primary value.</strong><br>
+  One short sentence explaining the main workflow or capability.
+</p>
+```
+
+Keep this summary outside the SVG so it is searchable, translatable, accessible,
+and still useful when images fail. Do not split the two sentences into separate
+Markdown paragraphs, and do not omit the block merely because the hero already
+contains similar copy.
+
+Render the status badges as one centered HTML block immediately below the
+summary:
+
+```html
+<p align="center">
+  <a href="..."><img src="..." alt="..."></a>
+  <a href="..."><img src="..." alt="..."></a>
+</p>
+```
+
+Use `https://shields.io/` badge URLs and link each badge to its relevant
+repository page or metadata. Keep all badges in the same container without
+`<br>` elements. On narrow screens, allow natural wrapping, but do not
+intentionally stack each badge into its own paragraph. Use 4 to 6 concise,
+verifiable badges. Prefer stars, forks, contributors, open issues, last commit,
+CI, release, license, coverage, or a primary runtime badge when the repository
+provides reliable evidence. Do not add a runtime version badge unless the
+repository explicitly declares or documents that version. When a dynamic metric
+is unavailable, use a static Shields.io badge derived from repository metadata
+rather than inventing data.
 
 Put the example before the long explanation. Remove repeated promises and internal implementation detail that does not help adoption.
 
