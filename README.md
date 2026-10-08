@@ -2,6 +2,16 @@
 
 我在 AI 编程助手（如 Claude Code）中自用的一系列 AI Agent 技能（Skills），用于编程与学习。
 
+## 常用技能
+
+下面这五个是我日常最常用的技能，放在这里方便快速查找：
+
+- **[humanizer-zh](skills/humanizer-zh/)**：去除中文文本中的 AI 写作痕迹，让表达更自然。
+- **[blog-cover-prompt](skills/blog-cover-prompt/)**：按博客既有风格生成封面绘图提示词。
+- **[beautify-github-readme](skills/beautify-github-readme/)**：整理并美化 GitHub README 的内容层级与视觉呈现。
+- **[requirement-validate](skills/requirement-validate/)**：先复述并确认需求，确认后结束，不直接进入实现。
+- **[vibe-learn](skills/vibe-learn/)**：面向非科班开发者，教授工具使用和向 AI 描述需求的方法。
+
 ## 技能列表
 
 | 技能 | 说明 |

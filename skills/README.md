@@ -2,6 +2,16 @@
 
 Claude Code skills collection. 每个子目录是一个可独立安装的 skill，通常包含 `SKILL.md` 和可选的 `references/`、`README.md` 等辅助文件。
 
+## 常用技能
+
+下面这五个是我日常最常用的技能，放在这里方便快速查找：
+
+- **[humanizer-zh](humanizer-zh/)**：去除中文文本中的 AI 写作痕迹，让表达更自然。
+- **[blog-cover-prompt](blog-cover-prompt/)**：按博客既有风格生成封面绘图提示词。
+- **[beautify-github-readme](beautify-github-readme/)**：整理并美化 GitHub README 的内容层级与视觉呈现。
+- **[requirement-validate](requirement-validate/)**：先复述并确认需求，确认后结束，不直接进入实现。
+- **[vibe-learn](vibe-learn/)**：面向非科班开发者，教授工具使用和向 AI 描述需求的方法。
+
 ## 安装方式
 
 把需要的 skill 目录复制到 Claude Code 的 skills 目录，然后重启 Claude Code：
