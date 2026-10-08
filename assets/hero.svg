@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="title desc">
+  <title id="title">Skills · HP-Patience</title>
+  <desc id="desc">自用 AI Agent 技能库头图：左侧为仓库名与简介，右侧按写作与表达、工程与规划、学习与教学三类列出 16 个技能，实心圆标记 5 个常用技能。</desc>
+  <style>
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  </style>
+
+  <rect width="1200" height="400" rx="24" fill="#0e1116"/>
+
+  <g id="title-block" transform="translate(64 0)">
+    <text class="mono" x="0" y="92" font-size="18" fill="#8b93a1">HP-Patience / Skills</text>
+    <text class="sans" x="-4" y="182" font-size="92" font-weight="800" fill="#f4f1ea" letter-spacing="-2">Skills</text>
+    <text class="sans" x="0" y="234" font-size="30" font-weight="600" fill="#f4f1ea">自用 AI Agent 技能库</text>
+    <text class="sans" x="0" y="274" font-size="20" fill="#b7bdc8">写作 · 工程规划 · 学习教学</text>
+    <text class="sans" x="0" y="304" font-size="20" fill="#b7bdc8">放进 Claude Code / Codex 即可调用</text>
+    <text class="mono" x="0" y="350" font-size="18" fill="#8b93a1">16 × SKILL.md · MIT · <tspan fill="#f4f1ea">●</tspan> 常用 <tspan fill="#5b6370">○</tspan> 其他</text>
+  </g>
+
+  <g id="skill-map" class="mono" font-size="16">
+    <!-- 写作与表达 -->
+    <g transform="translate(520 56)">
+      <rect width="624" height="88" rx="12" fill="#161a21" stroke="#262c36"/>
+      <rect width="6" height="88" rx="3" fill="#ff7a59"/>
+      <text class="sans" x="26" y="40" font-size="22" font-weight="700" fill="#f4f1ea">写作与表达</text>
+      <text x="26" y="68" fill="#8b93a1">4 skills</text>
+      <text x="168" y="38" fill="#d9dde4"><tspan fill="#ff7a59">●</tspan> humanizer-zh  <tspan fill="#ff7a59">●</tspan> blog-cover-prompt</text>
+      <text x="168" y="68" fill="#d9dde4"><tspan fill="#ff7a59">●</tspan> beautify-github-readme  <tspan fill="#5b6370">○</tspan> nsfc-figure-prompts</text>
+    </g>
+    <!-- 工程与规划 -->
+    <g transform="translate(520 160)">
+      <rect width="624" height="88" rx="12" fill="#161a21" stroke="#262c36"/>
+      <rect width="6" height="88" rx="3" fill="#3ec6b0"/>
+      <text class="sans" x="26" y="40" font-size="22" font-weight="700" fill="#f4f1ea">工程与规划</text>
+      <text x="26" y="68" fill="#8b93a1">4 skills</text>
+      <text x="168" y="38" fill="#d9dde4"><tspan fill="#3ec6b0">●</tspan> requirement-validate  <tspan fill="#5b6370">○</tspan> skill-optimizer</text>
+      <text x="168" y="68" fill="#d9dde4"><tspan fill="#5b6370">○</tspan> systematic-planning  <tspan fill="#5b6370">○</tspan> image-understanding</text>
+    </g>
+    <!-- 学习与教学 -->
+    <g transform="translate(520 264)">
+      <rect width="624" height="88" rx="12" fill="#161a21" stroke="#262c36"/>
+      <rect width="6" height="88" rx="3" fill="#f2c14e"/>
+      <text class="sans" x="26" y="40" font-size="22" font-weight="700" fill="#f4f1ea">学习与教学</text>
+      <text x="26" y="68" fill="#8b93a1">8 skills</text>
+      <text x="168" y="38" fill="#d9dde4"><tspan fill="#f2c14e">●</tspan> vibe-learn  <tspan fill="#5b6370">○</tspan> teach  <tspan fill="#5b6370">○</tspan> probe  <tspan fill="#5b6370">○</tspan> study-doc-writer</text>
+      <text x="168" y="68" fill="#d9dde4"><tspan fill="#5b6370">○</tspan> learn-profile  <tspan fill="#5b6370">○</tspan> learn-verify  <tspan fill="#5b6370">○</tspan> learn-visual  <tspan fill="#8b93a1">+1</tspan></text>
+    </g>
+  </g>
+</svg>
