@@ -20,6 +20,7 @@
 | [learn-visual](skills/learn-visual/) | 为单个教学概念生成并检查可视化图示。 |
 | [learn-verify](skills/learn-verify/) | 在教学前核查事实、定理、历史或工具/API 相关断言。 |
 | [beautify-github-readme](skills/beautify-github-readme/) | 重构 GitHub README 的内容层级与项目原生视觉系统，固定首屏摘要和 Shields.io 徽章布局，或独立创建 SVG、PNG/WebP 和可选 GIF 资产。 |
+| [blog-cover-prompt](skills/blog-cover-prompt/) | 根据文章标题、摘要或正文，生成与 Firefly 博客现有封面一致的深蓝黑底、电蓝全息技术封面绘图提示词。 |
 
 ## 目录结构
 
@@ -39,7 +40,8 @@
     ├── learn-profile/           # 学习者档案
     ├── learn-visual/            # 教学概念可视化
     ├── learn-verify/            # 教学事实核查
-    └── beautify-github-readme/  # GitHub README 内容与视觉设计
+    ├── beautify-github-readme/  # GitHub README 内容与视觉设计
+    └── blog-cover-prompt/       # 博客封面绘图提示词
 ```
 
 ## 使用方式
