@@ -1,23 +1,23 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Skills：自用 AI Agent 技能库，按写作与表达、工程与规划、学习与教学分类的 16 个技能">
+  <img src="assets/hero.svg" width="100%" alt="Skills：自用 AI Agent 技能库，按写作与表达、工程与规划、学习与教学分类的 17 个技能">
 </p>
 
 <p align="center">
-  <strong>16 个自用 AI Agent 技能，覆盖写作、工程规划和学习教学。</strong><br>
+  <strong>17 个自用 AI Agent 技能，覆盖写作、工程规划和学习教学。</strong><br>
   每个技能是一个带 <code>SKILL.md</code> 的目录，复制到 Claude Code 或 Codex 的技能目录即可调用。
 </p>
 
 <p align="center">
   <a href="https://github.com/HP-Patience/Skills/stargazers"><img src="https://img.shields.io/github/stars/HP-Patience/Skills?style=flat-square&color=f2c14e" alt="GitHub stars"></a>
   <a href="https://github.com/HP-Patience/Skills/commits/main"><img src="https://img.shields.io/github/last-commit/HP-Patience/Skills?style=flat-square&color=3ec6b0" alt="最近提交"></a>
-  <a href="#全部技能"><img src="https://img.shields.io/badge/skills-16-ff7a59?style=flat-square" alt="技能数量：16"></a>
+  <a href="#全部技能"><img src="https://img.shields.io/badge/skills-17-ff7a59?style=flat-square" alt="技能数量：17"></a>
   <a href="#安装"><img src="https://img.shields.io/badge/works%20with-Claude%20Code%20%7C%20Codex-8b93a1?style=flat-square" alt="适用于 Claude Code 和 Codex"></a>
   <a href="#许可"><img src="https://img.shields.io/badge/license-MIT-0e1116?style=flat-square" alt="许可：MIT"></a>
 </p>
 
 ## 常用技能
 
-我日常最常用的五个：
+我日常最常用的六个：
 
 | 技能 | 什么时候用 |
 |------|-----------|
@@ -26,6 +26,7 @@
 | [beautify-github-readme](skills/beautify-github-readme/) | 重新设计 GitHub README，或单独做头图、徽章等视觉素材 |
 | [requirement-validate](skills/requirement-validate/) | 动手前先复述需求，确认理解一致再开工 |
 | [vibe-learn](skills/vibe-learn/) | 非科班学开发：学工具怎么用、怎么向 AI 描述需求 |
+| [bili-subtitle-download](skills/bili-subtitle-download/) | 下载 B 站视频字幕，输出 JSON、SRT 和 Markdown |
 
 ## 全部技能
 
@@ -42,6 +43,10 @@
 - **[skill-optimizer](skills/skill-optimizer/)** — 用 7 层诊断框架分析并优化 Agent Skill 定义。
 - **[systematic-planning](skills/systematic-planning/)** — 把学习、考试、项目或能力建设目标拆成可执行、可复盘的计划。
 - **[image-understanding](skills/image-understanding/)** — 用本地 Qwen2-VL-2B-Instruct 分析图片，支持中文描述和图片问答。
+
+### 媒体与工具
+
+- **[bili-subtitle-download](skills/bili-subtitle-download/)** — 通过 `F:\bili_substitle` 项目的 Python CLI 下载 B 站字幕，支持当前分集、全部分集和指定分集，输出 JSON、SRT、Markdown。
 
 ### 学习与教学
 
@@ -80,7 +85,7 @@ cp -r skills/humanizer-zh ~/.codex/skills/
 └── skills/
     ├── humanizer-zh/            # 每个技能一个目录，核心是 SKILL.md
     ├── blog-cover-prompt/
-    ├── ...
+    ├── bili-subtitle-download/   # B站字幕下载
     └── vibe-learn/
 ```
 

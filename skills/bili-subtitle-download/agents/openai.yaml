@@ -1,0 +1,4 @@
+interface:
+  display_name: "B站字幕下载"
+  short_description: "给出 B 站视频链接，通过本地 CLI 下载分集字幕并检查输出文件"
+  default_prompt: "使用 $bili-subtitle-download 下载这个 B 站链接的字幕，并检查 JSON、SRT、MD 文件。"

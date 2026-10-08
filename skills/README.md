@@ -4,13 +4,14 @@ Claude Code skills collection. 每个子目录是一个可独立安装的 skill�
 
 ## 常用技能
 
-下面这五个是我日常最常用的技能，放在这里方便快速查找：
+下面这六个是我日常最常用的技能，放在这里方便快速查找：
 
 - **[humanizer-zh](humanizer-zh/)**：去除中文文本中的 AI 写作痕迹，让表达更自然。
 - **[blog-cover-prompt](blog-cover-prompt/)**：按博客既有风格生成封面绘图提示词。
 - **[beautify-github-readme](beautify-github-readme/)**：整理并美化 GitHub README 的内容层级与视觉呈现。
 - **[requirement-validate](requirement-validate/)**：先复述并确认需求，确认后结束，不直接进入实现。
 - **[vibe-learn](vibe-learn/)**：面向非科班开发者，教授工具使用和向 AI 描述需求的方法。
+- **[bili-subtitle-download](bili-subtitle-download/)**：通过本机 CLI 下载 B 站视频字幕并检查输出文件。
 
 ## 安装方式
 
@@ -39,6 +40,7 @@ cp -r <skill-name> C:/Users/<你>/\.claude/skills/
 | `study-doc-writer` | 为理解型学习者创建或重写学习文档、讲义、笔记和概念解释。 |
 | `systematic-planning` | 把模糊学习、考试、项目、能力建设或 skill 设计目标转成可执行、可复盘、可调整的系统计划。 |
 | `vibe-learn` | 面向 vibe coding / 非科班开发者，教授如何用专业语言向 AI 描述需求。 |
+| [bili-subtitle-download](bili-subtitle-download/) | 通过本机 Python CLI 下载 B 站字幕，支持当前分集、全部分集和指定分集。 |
 
 ## 第三方技能来源
 
