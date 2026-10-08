@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blog Cover Prompt"
+  short_description: "根据文章主题生成与现有博客封面一致的深蓝全息科技风绘图提示词"
+  default_prompt: "使用 $blog-cover-prompt，根据我提供的文章标题或正文，生成与现有博客封面风格一致的图片提示词。"

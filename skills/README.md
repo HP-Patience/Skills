@@ -20,6 +20,7 @@ cp -r <skill-name> C:/Users/<你>/\.claude/skills/
 
 | Skill | 用途 |
 |---|---|
+| `blog-cover-prompt` | 根据文章内容生成与 Firefly 博客现有封面风格一致的深蓝电光技术封面绘图提示词。 |
 | `material-suitability-audit` | 多角度评估学习材料、教材或学习路线是否适合理解型学习者，并给出教学重构方案。 |
 | `nsfc-figure-prompts` | 为 NSFC / 科研申请书生成统一学术风格的 AI 绘图提示词。 |
 | `requirement-validate` | 需求理解确认闭环：先复述、再让用户确认，不进入实现阶段。 |
