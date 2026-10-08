@@ -21,6 +21,7 @@
 | [learn-verify](skills/learn-verify/) | 在教学前核查事实、定理、历史或工具/API 相关断言。 |
 | [beautify-github-readme](skills/beautify-github-readme/) | 重构 GitHub README 的内容层级与项目原生视觉系统，固定首屏摘要和 Shields.io 徽章布局，或独立创建 SVG、PNG/WebP 和可选 GIF 资产。 |
 | [blog-cover-prompt](skills/blog-cover-prompt/) | 根据文章标题、摘要或正文，生成与 Firefly 博客现有封面一致的深蓝黑底、电蓝全息技术封面绘图提示词。 |
+| [humanizer-zh](skills/humanizer-zh/) | 去除中文文本中的 AI 写作痕迹，调整空泛表达、机械句式与模板化结构；译自 blader/humanizer，参考 hardikpandya/stop-slop。 |
 
 ## 目录结构
 
@@ -41,7 +42,8 @@
     ├── learn-visual/            # 教学概念可视化
     ├── learn-verify/            # 教学事实核查
     ├── beautify-github-readme/  # GitHub README 内容与视觉设计
-    └── blog-cover-prompt/       # 博客封面绘图提示词
+    ├── blog-cover-prompt/       # 博客封面绘图提示词
+    └── humanizer-zh/            # 中文 AI 写作去痕
 ```
 
 ## 使用方式
@@ -53,6 +55,10 @@ git clone https://github.com/HP-Patience/Skills.git
 ```
 
 每个技能目录下包含 `SKILL.md`（技能定义）及其他支持文件。
+
+## 第三方技能来源
+
+- **humanizer-zh**：收录自 [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh)，本次保留本地版本（上游提交 `91f3d394db8419c20d67ebe22a96cf8fee0a404b`），未升级到上游新版。核心内容翻译自 [blader/humanizer](https://github.com/blader/humanizer)，实用规则参考 [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)，基础指南为维基百科的 [AI 写作特征](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)。原项目的 MIT 许可证与版权声明保留在 [skills/humanizer-zh/LICENSE](skills/humanizer-zh/LICENSE)。
 
 ## 许可
 

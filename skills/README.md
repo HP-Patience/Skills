@@ -20,6 +20,7 @@ cp -r <skill-name> C:/Users/<你>/\.claude/skills/
 
 | Skill | 用途 |
 |---|---|
+| [humanizer-zh](humanizer-zh/) | 去除中文文本中的 AI 写作痕迹，调整空泛表达、机械句式与模板化结构，让表达更自然。 |
 | `blog-cover-prompt` | 根据文章内容生成与 Firefly 博客现有封面风格一致的深蓝电光技术封面绘图提示词。 |
 | `material-suitability-audit` | 多角度评估学习材料、教材或学习路线是否适合理解型学习者，并给出教学重构方案。 |
 | `nsfc-figure-prompts` | 为 NSFC / 科研申请书生成统一学术风格的 AI 绘图提示词。 |
@@ -28,6 +29,10 @@ cp -r <skill-name> C:/Users/<你>/\.claude/skills/
 | `study-doc-writer` | 为理解型学习者创建或重写学习文档、讲义、笔记和概念解释。 |
 | `systematic-planning` | 把模糊学习、考试、项目、能力建设或 skill 设计目标转成可执行、可复盘、可调整的系统计划。 |
 | `vibe-learn` | 面向 vibe coding / 非科班开发者，教授如何用专业语言向 AI 描述需求。 |
+
+## 第三方技能来源
+
+`humanizer-zh` 来自 [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh)，核心内容翻译自 [blader/humanizer](https://github.com/blader/humanizer)，实用规则参考 [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)。本次收录本地版本（上游提交 `91f3d394db8419c20d67ebe22a96cf8fee0a404b`），未升级到上游新版；保留其 [MIT 许可证与版权声明](humanizer-zh/LICENSE)。详细使用方法见 [技能说明](humanizer-zh/README.md)。
 
 ## 目录约定
 
