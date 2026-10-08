@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/hero.svg" alt="Skills：自用 AI Agent 技能库，按写作与表达、工程与规划、学习与教学分类的 16 个技能" width="100%">
+</p>
+
 # Skills
 
 我在 AI 编程助手（如 Claude Code）中自用的一系列 AI Agent 技能（Skills），用于编程与学习。
